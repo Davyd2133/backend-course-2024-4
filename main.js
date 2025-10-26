@@ -68,3 +68,5 @@ const server = http.createServer(async (req, res) => {
 server.listen(Number(port), host, () => {
   console.log(`Server running at http://${host}:${port}`);
 });
+
+// no-op
